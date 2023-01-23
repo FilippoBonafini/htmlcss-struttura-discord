@@ -6,3 +6,70 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* ---------- */
+/* DEBUG */
+/* ---------- */
+.debug header{
+    height: 580px;
+    background-color:#add8e6 ;
+}
+
+.debug .header-lml{
+    height: 47px ;
+    background-color:#daa520;
+    width: 1200px ;
+
+}
+
+.debug .box{
+    border: 2px solid black;
+    border-style: dashed;
+}
+
+.debug .header-lml .login{
+    flex-grow: 1;
+}
+
+.debug .header-lml .menu{
+    flex-grow: 3;
+}
+
+.debug .header-lml .logo{
+    flex-grow: 1;
+}
+
+.debug .presentazione{
+    background-color:#00008b;
+}
+
+.debug .presentazione .content{
+    background-color:#ee82ee;
+    width: 910px;
+    height: 400px;
+}
+/* ---------- */
+/* MAIN */
+/* ---------- */
+header{
+    display: flex;
+    justify-content: center;
+    padding:17px 0;
+    flex-wrap: wrap;
+}
+
+.header-lml{
+    display: flex;
+    justify-content: center;
+}
+
+header .presentazione{
+    width: 100%;
+}
+
+header .presentazione{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
