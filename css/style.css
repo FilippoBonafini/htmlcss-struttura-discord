@@ -103,6 +103,20 @@
     background-color: #ffb6c1;
     padding: 5px 10px;
 }
+
+.debug .menu{
+    text-align: center;
+    line-height:45px ;
+}
+
+.debug .header-lml .logo{
+    line-height: 45px;
+}
+
+.debug .login{
+    text-align: end;
+    line-height: 45px;
+}
 /* ---------- */
 /* HEADER */
 /* ---------- */
@@ -130,20 +144,6 @@ header .presentazione{
     justify-content: center;
     align-items: center;
 
-}
-
-.menu{
-    text-align: center;
-    line-height:45px ;
-}
-
-.logo{
-    line-height: 45px;
-}
-
-.login{
-    text-align: end;
-    line-height: 45px;
 }
 
 
