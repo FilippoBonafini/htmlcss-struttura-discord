@@ -12,7 +12,7 @@
 /* DEBUG */
 /* ---------- */
 .debug header{
-    height: 580px;
+
     background-color:#add8e6 ;
 }
 
@@ -48,15 +48,25 @@
     background-color:#ee82ee;
     width: 910px;
     height: 400px;
+    margin: 50px 0;
 }
+
+.debug .sezione1 .content{
+    width: 1200px;
+    height: 500px;
+}
+
 /* ---------- */
 /* MAIN */
 /* ---------- */
 header{
+    padding-top: 17px;
+    padding-bottom: 4px;
     display: flex;
     justify-content: center;
-    padding:17px 0;
+    align-items: center;
     flex-wrap: wrap;
+    gap: 17px;
 }
 
 .header-lml{
@@ -73,4 +83,10 @@ header .presentazione{
     justify-content: center;
     align-items: center;
 
+}
+
+main .sezione1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
