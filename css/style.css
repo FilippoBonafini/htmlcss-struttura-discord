@@ -12,7 +12,6 @@
 /* DEBUG */
 /* ---------- */
 .debug header{
-
     background-color:#add8e6 ;
 }
 
@@ -72,8 +71,7 @@
 }
 
 .debug .sezione3{
-    
-    background-color:#23272a ;
+     background-color:#23272a ;
 }
 
 .debug  .sezione3 .content{
@@ -117,6 +115,11 @@
     text-align: end;
     line-height: 45px;
 }
+
+.debug .sfondo-grigio{
+    padding: 50px 0;
+    background-color: #d3d3d3;
+}
 /* ---------- */
 /* HEADER */
 /* ---------- */
@@ -146,7 +149,16 @@ header .presentazione{
 
 }
 
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
 
+.menu ul li{
+    list-style-type:none;
+}
 /* ---------- */
 /* MAIN */
 /* ---------- */
@@ -154,7 +166,6 @@ header .presentazione{
 main .sezione1{
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 50px 0;
 }
 
@@ -166,7 +177,7 @@ main .sezione2{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
+    margin: 50px 0 0 0;
 }
 
 main .sezione2 .content{
