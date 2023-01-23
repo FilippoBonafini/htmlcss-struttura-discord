@@ -71,6 +71,11 @@
     background-color:#228b22;
 }
 
+.debug .sezione3{
+    
+    background-color:#23272a ;
+}
+
 .debug  .sezione3 .content{
     width: 1200px;
     height: 500px;}
@@ -83,6 +88,21 @@
 .debug .sezione3 .content .content-acqua{
     background-color:#20b2aa;
     flex-grow: 1;}
+
+.debug .fine-pagina{
+    background-color:#7fffd4;
+    width: 1200px ;
+    height: 80px;
+}
+
+.debug footer{
+    background-color:#23272a ;
+}
+
+.debug .fine-pagina div{
+    background-color: #f08080;
+    padding: 5px 10px;
+}
 /* ---------- */
 /* HEADER */
 /* ---------- */
@@ -143,11 +163,27 @@ main .sezione3{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0;
-    background-color:#23272a ;
 }
 
 main .sezione3 .content{
     display: flex;
     margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+/* ---------- */
+/* FOOTER */
+/* ---------- */
+footer{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    border-top: 2px solid #eeeeee ;
+}
+
+.fine-pagina{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
