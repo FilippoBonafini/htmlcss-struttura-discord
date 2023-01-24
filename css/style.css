@@ -15,28 +15,10 @@
     background-color:#add8e6 ;
 }
 
-.debug .header-lml{
-    height: 47px ;
-    background-color:#daa520;
-    width: 1200px ;
-
-}
 
 .debug .box{
     border: 2px solid black;
     border-style: dashed;
-}
-
-.debug .header-lml .login{
-    flex-grow: 1;
-}
-
-.debug .header-lml .menu{
-    flex-grow: 3;
-}
-
-.debug .header-lml .logo{
-    flex-grow: 1;
 }
 
 .debug .presentazione{
@@ -44,82 +26,26 @@
 }
 
 .debug .presentazione .content{
-    background-color:#ee82ee;
-    width: 910px;
     height: 400px;
-    margin: 50px 0;
 }
-
 .debug  .sezione1 .content{
-    width: 1200px;
     height: 500px;}
 
-.debug .sezione1 .content .content-blu{
-    background-color:#1e90ff;
-    width: 60%;
-}
-
-.debug .sezione1 .content .content-pink{
-    background-color:#ffc0cb;
-    width: 40%;
-}
 
 .debug  .sezione2 .content-green{
-    width: 1200px;
     height: 900px;
-    background-color:#228b22;
-}
-
-.debug .sezione3{
-     background-color:#23272a ;
 }
 
 .debug  .sezione3 .content{
-    width: 1200px;
     height: 500px;}
 
-.debug .sezione3 .content .content-red{
-    background-color:#f08080;
-    flex-grow: 2;
-}
 
-.debug .sezione3 .content .content-acqua{
-    background-color:#20b2aa;
-    flex-grow: 1;}
 
 .debug .fine-pagina{
-    background-color:#7fffd4;
-    width: 1200px ;
     height: 80px;
 }
 
-.debug footer{
-    background-color:#23272a ;
-}
 
-.debug .fine-pagina div{
-    background-color: #ffb6c1;
-    padding: 5px 10px;
-}
-
-.debug .menu{
-    text-align: center;
-    line-height:45px ;
-}
-
-.debug .header-lml .logo{
-    line-height: 45px;
-}
-
-.debug .login{
-    text-align: end;
-    line-height: 45px;
-}
-
-.debug .sfondo-grigio{
-    padding: 50px 0;
-    background-color: #d3d3d3;
-}
 /* ---------- */
 /* HEADER */
 /* ---------- */
@@ -136,6 +62,9 @@ header{
 .header-lml{
     display: flex;
     justify-content: center;
+    height: 47px ;
+    background-color:#daa520;
+    width: 1200px ;
 }
 
 header .presentazione{
@@ -159,6 +88,27 @@ header .presentazione{
 .menu ul li{
     list-style-type:none;
 }
+
+
+.header-lml .login{
+    flex-grow: 1;
+}
+
+.header-lml .menu{
+    flex-grow: 3;
+}
+
+.header-lml .logo{
+    flex-grow: 1;
+}
+
+.presentazione .content{
+    background-color:#ee82ee;
+    width: 910px;
+    margin: 50px 0;
+}
+
+
 /* ---------- */
 /* MAIN */
 /* ---------- */
@@ -196,6 +146,75 @@ main .sezione3 .content{
     margin-bottom: 40px;
 }
 
+.sezione1 .content .content-blu{
+    background-color:#1e90ff;
+    width: 60%;
+}
+
+.sezione1 .content .content-pink{
+    background-color:#ffc0cb;
+    width: 40%;
+}
+
+.sezione3 .content{
+    width: 1200px;
+    height: 500px;
+}
+
+.sezione1 .content{
+    width: 1200px;
+}
+
+.sezione2 .content-green{
+    width: 1200px;
+    background-color:#228b22;
+}
+
+.sezione3{
+     background-color:#23272a ;
+}
+
+.sezione3 .content .content-red{
+    background-color:#f08080;
+    flex-grow: 2;
+}
+
+.sezione3 .content .content-acqua{
+    background-color:#20b2aa;
+    flex-grow: 1;}
+
+.fine-pagina{
+    background-color:#7fffd4;
+    width: 1200px ;
+}
+
+footer{
+    background-color:#23272a ;
+}
+
+.fine-pagina div{
+    background-color: #ffb6c1;
+    padding: 5px 10px;
+}
+
+.menu{
+    text-align: center;
+    line-height:45px ;
+}
+
+.header-lml .logo{
+    line-height: 45px;
+}
+
+.login{
+    text-align: right;
+    line-height: 45px;
+}
+
+.sfondo-grigio{
+    padding: 50px 0;
+    background-color: #d3d3d3;
+}
 
 /* ---------- */
 /* FOOTER */
